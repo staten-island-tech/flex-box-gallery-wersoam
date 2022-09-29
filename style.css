@@ -1,8 +1,17 @@
-html, body, *{
-    padding: 0;
+html,
+body,
+* {
+    padding: ;
     margin: 0;
     box-sizing: border-box;
     font-size: 62.5%;
 }
-.parent{font size: 55px}
-ch
+
+.parent {
+    font-size: 30px;
+    display: flex;
+  justify-content: space-around;
+
+}
+.child {border: 5px solid teal;
+width: 28%;}
