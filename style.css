@@ -12,22 +12,27 @@ body,
 text-align: center;
 border: 1px solid sandybrown;
 background-color: sandybrown;
+transition: all 1.7s;
 }
-
+.title:hover{transform: scale(1.05);}
 .parent {
     font-size: 30px;
     display: flex;
     margin: 1rem;
   justify-content: space-around;
   text-align: center;
-  
-
+ 
 }
 .img {border: 1px solid teal;
 box-sizing: border-box;
+
+-webkit-transition: all 0.3s;
+transition: all 1.7s;
 
 box-shadow: 0 10px 10px rgb(0 0 0 / 0.2);
 }
 .text {background-color: blanchedalmond;
 font-size: 2rem;
+}
+.img:hover{transform: rotate(1turn);
 }
