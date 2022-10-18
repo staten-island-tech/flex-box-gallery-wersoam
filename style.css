@@ -23,16 +23,25 @@ transition: all 1.7s;
   text-align: center;
  
 }
+
 .img {border: 1px solid teal;
 box-sizing: border-box;
 
--webkit-transition: all 0.3s;
 transition: all 1.7s;
 
 box-shadow: 0 10px 10px rgb(0 0 0 / 0.2);
 }
 .text {background-color: blanchedalmond;
-font-size: 2rem;
+font-size: 2rem; transition: color .3s ease-in-out,.3s ease-in-out;
 }
-.img:hover{transform: rotate(1turn);
-}
+
+.text:hover{ box-shadow: inset 125px 0 0 0 #0fb739;
+  background-color: antiquewhite;}
+  .text2:hover{ box-shadow: inset 125px 0 0 0 #ffd700;}
+  .text1:hover{ box-shadow: inset 125px 0 0 0 #ff00ff;}
+  .text8:hover{ box-shadow: inset 125px 0 0 0 #464dcf;}
+  .text3:hover{ box-shadow: inset 125px 0 0 0 #f4ff29;}
+  .text4:hover{ box-shadow: inset 125px 0 0 0 #e7dddd;}
+  .text5:hover{ box-shadow: inset 125px 0 0 0 #ff00b3;}
+  .text6:hover{ box-shadow: inset 125px 0 0 0 #ff3014;}
+  .text7:hover{ box-shadow: inset 125px 0 0 0 #dda311;}
