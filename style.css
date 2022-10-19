@@ -10,11 +10,11 @@ body,
 }
 .title{font-size: 5rem;
 text-align: center;
-border: 1px solid sandybrown;
-background-color: sandybrown;
 transition: all 1.7s;
+animation: test 10s infinite;
 }
 .title:hover{transform: scale(1.05);}
+
 .parent {
     font-size: 30px;
     display: flex;
@@ -32,9 +32,9 @@ transition: all 1.7s;
 box-shadow: 0 10px 10px rgb(0 0 0 / 0.2);
 }
 .text {background-color: blanchedalmond;
-font-size: 2rem; transition: color .3s ease-in-out,.3s ease-in-out;
+font-size: 2rem; transition: ease-in-out,.3s;
 }
-
+.img:hover{transform: scale(1.05);}
 .text:hover{ box-shadow: inset 125px 0 0 0 #0fb739;
   background-color: antiquewhite;}
   .text2:hover{ box-shadow: inset 125px 0 0 0 #ffd700;}
@@ -45,3 +45,31 @@ font-size: 2rem; transition: color .3s ease-in-out,.3s ease-in-out;
   .text5:hover{ box-shadow: inset 125px 0 0 0 #ff00b3;}
   .text6:hover{ box-shadow: inset 125px 0 0 0 #ff3014;}
   .text7:hover{ box-shadow: inset 125px 0 0 0 #dda311;}
+
+
+@keyframes test{
+  0%{
+background-color: red;
+  }
+15%{
+background-color: orange;
+}
+30%{
+background-color:yellow ;
+}
+45%{
+background-color: green;
+}
+60%{
+background-color: blue;
+}
+75%{
+background-color: indigo;
+}
+90%{
+background-color: violet;
+}
+100%{
+background-color: red;
+}
+}
