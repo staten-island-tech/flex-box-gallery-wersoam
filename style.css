@@ -72,5 +72,14 @@ background-color: violet;
 }
 100%{
 background-color: red;
+}}
+@media(max-width:500px){
+  body{
+    color: #dda311;
+  }
 }
+@media(max-width:1000px){
+  body{
+    color: #2bfc2b;
+  }
 }
